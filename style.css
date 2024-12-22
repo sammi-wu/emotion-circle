@@ -1,0 +1,121 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+canvas {
+  display: block;
+}
+#heading{
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+}
+#question1{
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+}
+#question2{
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+}
+#question3{
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+}
+
+#create{
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+  background-color: #FF9800;
+  color: #FFFFFF;
+  border: 3px solid #FF980000;
+  padding: 14px 25px;
+  position: relative;
+  left: 44%;
+  -webkit-appearance: none;
+}
+#create:hover{
+  cursor: pointer;
+  background-color: #B4A89500;
+  color: #FF9800;
+  border: 3px solid #FF9800;
+}
+#print{
+  display: inline-block;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+  background-color: #adadad;
+  color: #FFFFFF;
+  border: 3px solid #FF980000;
+  padding: 14px 25px;
+  position: relative;
+  left: 45%;
+
+
+}
+#print:hover{
+  cursor: pointer;
+  background-color: #B4A89500;
+  color: #adadad;
+  border: 3px solid #adadad;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #FF9800;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #FFC107;
+  cursor: pointer;
+}
+#visualCanvas{
+  display: inline-block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#back{
+  -webkit-appearance: none;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+  background-color: #adadad;
+  color: #FFFFFF;
+  border: 3px solid #FF980000;
+  padding: 14px 28px;
+  margin-top: 20px;
+  position: relative;
+  left: 45%;
+}
+#back:hover{
+  cursor: pointer;
+  background-color: #B4A89500;
+  color: #adadad;
+  border: 3px solid #adadad;
+}
