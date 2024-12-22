@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+<body>
+  <div id="heading">
+    <h1>
+      HOW DOES YOUR EMOTION LOOK LIKE?
+    </h1>
+  </div>
+  <div id="question1">
+    <p>How angry are you?</p>
+    <input oninput="answerOne(this.value)" type="range" min="0" max="225" value="0" class="slider" id="answer1">
+    <br>
+  </div>
+  <div id="question2">
+    <p>How happy are you?</p>
+    <input oninput="answerTwo(this.value)" type="range" min="0" max="255" value="0" class="slider" id="answer2">
+
+    <br>
+  </div>
+  <div id="question3">
+    <p>How sad are you?</p>
+    <input oninput="answerThree(this.value)" type="range" min="0" max="255" value="0" class="slider" id="answer3">
+    <br>
+    <br>
+  </div>
+  <div> 
+    <button onclick="revealVisuals()" id="create">CREATE</button>
+  </div>
+  <br>
+  <div>
+    <button onclick="printOut()" id="print">PRINT</button>
+<br>
+  <button onclick=location.href="index.html" id="back">BACK</button>
+  </div>
+  <br>
+  <br>
+
+  <script src="sketch.js"></script>
+
+</body>
+
+</html>
